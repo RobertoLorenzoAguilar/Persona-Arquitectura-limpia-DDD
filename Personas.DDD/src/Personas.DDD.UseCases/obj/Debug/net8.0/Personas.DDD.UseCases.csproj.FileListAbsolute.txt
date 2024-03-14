@@ -1,0 +1,15 @@
+C:\clean\Personas.DDD\src\Personas.DDD.UseCases\bin\Debug\net8.0\Personas.DDD.UseCases.deps.json
+C:\clean\Personas.DDD\src\Personas.DDD.UseCases\bin\Debug\net8.0\Personas.DDD.UseCases.dll
+C:\clean\Personas.DDD\src\Personas.DDD.UseCases\bin\Debug\net8.0\Personas.DDD.UseCases.pdb
+C:\clean\Personas.DDD\src\Personas.DDD.UseCases\bin\Debug\net8.0\Personas.DDD.Core.dll
+C:\clean\Personas.DDD\src\Personas.DDD.UseCases\bin\Debug\net8.0\Personas.DDD.Core.pdb
+C:\clean\Personas.DDD\src\Personas.DDD.UseCases\obj\Debug\net8.0\Personas.DDD.UseCases.csproj.AssemblyReference.cache
+C:\clean\Personas.DDD\src\Personas.DDD.UseCases\obj\Debug\net8.0\Personas.DDD.UseCases.GeneratedMSBuildEditorConfig.editorconfig
+C:\clean\Personas.DDD\src\Personas.DDD.UseCases\obj\Debug\net8.0\Personas.DDD.UseCases.AssemblyInfoInputs.cache
+C:\clean\Personas.DDD\src\Personas.DDD.UseCases\obj\Debug\net8.0\Personas.DDD.UseCases.AssemblyInfo.cs
+C:\clean\Personas.DDD\src\Personas.DDD.UseCases\obj\Debug\net8.0\Personas.DDD.UseCases.csproj.CoreCompileInputs.cache
+C:\clean\Personas.DDD\src\Personas.DDD.UseCases\obj\Debug\net8.0\Personas.CBC9ECA4.Up2Date
+C:\clean\Personas.DDD\src\Personas.DDD.UseCases\obj\Debug\net8.0\Personas.DDD.UseCases.dll
+C:\clean\Personas.DDD\src\Personas.DDD.UseCases\obj\Debug\net8.0\refint\Personas.DDD.UseCases.dll
+C:\clean\Personas.DDD\src\Personas.DDD.UseCases\obj\Debug\net8.0\Personas.DDD.UseCases.pdb
+C:\clean\Personas.DDD\src\Personas.DDD.UseCases\obj\Debug\net8.0\ref\Personas.DDD.UseCases.dll
