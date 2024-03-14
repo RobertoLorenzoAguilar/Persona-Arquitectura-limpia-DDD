@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "/jt3ZWsbUR0Z4f4v5ojyaC9XVlWc4g5c29nEAPUndBU=",
+  "Source": "Personas.DDD.Web",
+  "BasePath": "_content/Personas.DDD.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Personas.DDD.Web\\wwwroot",
+      "Source": "Personas.DDD.Web",
+      "ContentRoot": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Web\\wwwroot\\",
+      "BasePath": "_content/Personas.DDD.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Web\\wwwroot\\.gitkeep",
+      "SourceId": "Personas.DDD.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Web\\wwwroot\\",
+      "BasePath": "_content/Personas.DDD.Web",
+      "RelativePath": ".gitkeep",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\.gitkeep"
+    }
+  ]
+}
