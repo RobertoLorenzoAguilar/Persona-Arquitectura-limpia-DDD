@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Lj8+QD1HwFJKAdJfXyq8H+b3JOVPkXDRqSp7Z6qSzuPu0ZHvi1j33Sz5gUZqywNmIAUrrFQeeJTuf/21GOPvfA==",
-  "success": false,
+  "dgSpecHash": "wp8IuyfLGoDkEwbuwnRfIRkBNB83j9IHfVbXXOHbCOADolSBByCNfnD+az5MQLH2yl6O9QrKMGEwQY0I5CwVwQ==",
+  "success": true,
   "projectFilePath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.Web\\People.DDD.Web.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1008",
-      "level": "Error",
-      "message": "Los proyectos que usan la administración central de versiones de paquetes no deben definir la versión de los elementos PackageReference, sino la de los elementos de PackageVersion: Swashbuckle.AspNetCore."
-    }
-  ]
+  "expectedPackageFiles": [
+    "C:\\Users\\Dev\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Dev\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Dev\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Dev\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Dev\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Dev\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
 }

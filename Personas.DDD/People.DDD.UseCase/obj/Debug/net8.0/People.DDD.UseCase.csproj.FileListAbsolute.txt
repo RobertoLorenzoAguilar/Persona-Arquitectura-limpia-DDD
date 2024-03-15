@@ -1,0 +1,16 @@
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\bin\Debug\net8.0\People.DDD.UseCase.deps.json
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\bin\Debug\net8.0\People.DDD.UseCase.dll
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\bin\Debug\net8.0\People.DDD.UseCase.pdb
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\bin\Debug\net8.0\People.DDD.Core.dll
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\bin\Debug\net8.0\People.DDD.Core.pdb
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\obj\Debug\net8.0\People.DDD.UseCase.csproj.AssemblyReference.cache
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\obj\Debug\net8.0\People.DDD.UseCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\obj\Debug\net8.0\People.DDD.UseCase.AssemblyInfoInputs.cache
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\obj\Debug\net8.0\People.DDD.UseCase.AssemblyInfo.cs
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\obj\Debug\net8.0\People.DDD.UseCase.csproj.CoreCompileInputs.cache
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\obj\Debug\net8.0\People.DDD.UseCase.sourcelink.json
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\obj\Debug\net8.0\People.D.D703D30F.Up2Date
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\obj\Debug\net8.0\People.DDD.UseCase.dll
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\obj\Debug\net8.0\refint\People.DDD.UseCase.dll
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\obj\Debug\net8.0\People.DDD.UseCase.pdb
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.UseCase\obj\Debug\net8.0\ref\People.DDD.UseCase.dll

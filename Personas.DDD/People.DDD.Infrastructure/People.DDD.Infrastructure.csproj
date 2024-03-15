@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\People.DDD.Core\People.DDD.Core.csproj" />
+    <ProjectReference Include="..\People.DDD.UseCase\People.DDD.UseCase.csproj" />
+  </ItemGroup>
+
 </Project>

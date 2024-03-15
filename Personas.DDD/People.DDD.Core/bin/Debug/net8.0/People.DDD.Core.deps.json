@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "People.DDD.Core/1.0.0": {
+        "runtime": {
+          "People.DDD.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "People.DDD.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

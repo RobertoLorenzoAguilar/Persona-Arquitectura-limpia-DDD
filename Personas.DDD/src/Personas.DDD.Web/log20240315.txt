@@ -919,3 +919,49 @@ WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
 2024-03-15 13:35:42.211 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
 2024-03-15 13:35:42.469 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 258.2263ms
 2024-03-15 13:35:57.796 -07:00 [INF] Registered 5 endpoints in 4,429 milliseconds.
+2024-03-15 15:48:02.958 -07:00 [INF] Registered 5 endpoints in 21,181 milliseconds.
+2024-03-15 15:48:06.993 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+        FROM information_schema.tables
+        WHERE table_type = 'BASE TABLE' AND table_schema = 'cleanarchitecture'
+2024-03-15 15:48:08.294 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `Contributors` AS `c`)
+2024-03-15 15:48:08.959 -07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-15 15:48:08.970 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-03-15 15:48:09.000 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 15:48:09.001 -07:00 [INF] Hosting environment: Development
+2024-03-15 15:48:09.001 -07:00 [INF] Content root path: C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web
+2024-03-15 15:48:09.571 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-03-15 15:48:09.572 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 604.9138ms
+2024-03-15 15:48:09.628 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 57.6731ms
+2024-03-15 15:48:09.706 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 15:48:09.709 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.3399ms
+2024-03-15 15:48:09.711 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-03-15 15:48:09.735 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.5119ms
+2024-03-15 15:48:09.892 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-03-15 15:48:10.197 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 305.3581ms
+2024-03-15 16:08:44.609 -07:00 [INF] Registered 5 endpoints in 137,001 milliseconds.
+2024-03-15 16:08:50.669 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+        FROM information_schema.tables
+        WHERE table_type = 'BASE TABLE' AND table_schema = 'cleanarchitecture'
+2024-03-15 16:08:51.793 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `Contributors` AS `c`)
+2024-03-15 16:08:52.367 -07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-15 16:08:52.378 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-03-15 16:08:52.408 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 16:08:52.408 -07:00 [INF] Hosting environment: Development
+2024-03-15 16:08:52.408 -07:00 [INF] Content root path: C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web
+2024-03-15 16:08:52.447 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-03-15 16:08:52.448 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 72.4293ms
+2024-03-15 16:08:52.504 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 57.3805ms
+2024-03-15 16:08:52.574 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 16:08:52.576 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-03-15 16:08:52.576 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.552ms
+2024-03-15 16:08:52.596 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.5563ms
+2024-03-15 16:08:52.738 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-03-15 16:08:53.207 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 469.5195ms

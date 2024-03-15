@@ -1,0 +1,6 @@
+{
+  "Personas.DDD.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core",
+  "Personas.DDD.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure",
+  "Personas.DDD.UseCases, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases",
+  "Personas.DDD.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web"
+}

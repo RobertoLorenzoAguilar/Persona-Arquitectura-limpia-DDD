@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "People.DDD.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/People.DDD.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/People.DDD.Core.dll": {}
+        }
+      },
+      "People.DDD.UseCase/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "People.DDD.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/People.DDD.UseCase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/People.DDD.UseCase.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "People.DDD.Core/1.0.0": {
+      "type": "project",
+      "path": "../People.DDD.Core/People.DDD.Core.csproj",
+      "msbuildProject": "../People.DDD.Core/People.DDD.Core.csproj"
+    },
+    "People.DDD.UseCase/1.0.0": {
+      "type": "project",
+      "path": "../People.DDD.UseCase/People.DDD.UseCase.csproj",
+      "msbuildProject": "../People.DDD.UseCase/People.DDD.UseCase.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "People.DDD.Core >= 1.0.0",
+      "People.DDD.UseCase >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Dev\\.nuget\\packages\\": {}
@@ -34,7 +72,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.Core\\People.DDD.Core.csproj": {
+              "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.Core\\People.DDD.Core.csproj"
+            },
+            "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.UseCase\\People.DDD.UseCase.csproj": {
+              "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.UseCase\\People.DDD.UseCase.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "People.DDD.Infrastructure/1.0.0": {
+        "dependencies": {
+          "People.DDD.Core": "1.0.0",
+          "People.DDD.UseCase": "1.0.0"
+        },
+        "runtime": {
+          "People.DDD.Infrastructure.dll": {}
+        }
+      },
+      "People.DDD.Core/1.0.0": {
+        "runtime": {
+          "People.DDD.Core.dll": {}
+        }
+      },
+      "People.DDD.UseCase/1.0.0": {
+        "dependencies": {
+          "People.DDD.Core": "1.0.0"
+        },
+        "runtime": {
+          "People.DDD.UseCase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "People.DDD.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "People.DDD.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "People.DDD.UseCase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

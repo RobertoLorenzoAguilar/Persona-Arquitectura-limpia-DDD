@@ -1,0 +1,12 @@
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\bin\Debug\net8.0\People.DDD.Core.deps.json
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\bin\Debug\net8.0\People.DDD.Core.dll
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\bin\Debug\net8.0\People.DDD.Core.pdb
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.AssemblyInfoInputs.cache
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.AssemblyInfo.cs
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.csproj.CoreCompileInputs.cache
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.sourcelink.json
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.dll
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\refint\People.DDD.Core.dll
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.pdb
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\ref\People.DDD.Core.dll
