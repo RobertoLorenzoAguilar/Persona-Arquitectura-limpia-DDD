@@ -633,21 +633,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\R\\.nuget\\packages\\": {}
+    "C:\\Users\\Dev\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj",
+      "projectUniqueName": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj",
       "projectName": "Personas.DDD.Core",
-      "projectPath": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj",
-      "packagesPath": "C:\\Users\\R\\.nuget\\packages\\",
-      "outputPath": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Core\\obj\\",
+      "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj",
+      "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
+      "outputPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "configFilePaths": [
-        "C:\\clean\\Personas.DDD\\NuGet.Config",
-        "C:\\Users\\R\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\NuGet.Config",
+        "C:\\Users\\Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

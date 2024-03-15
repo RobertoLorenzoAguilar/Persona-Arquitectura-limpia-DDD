@@ -1,0 +1,6 @@
+@People.DDD.Web_HostAddress = http://localhost:5274
+
+GET {{People.DDD.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

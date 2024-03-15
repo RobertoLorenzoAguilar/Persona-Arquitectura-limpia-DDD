@@ -1,0 +1,921 @@
+2024-03-15 09:02:15.757 -07:00 [INF] Registered 5 endpoints in 419 milliseconds.
+2024-03-15 09:02:18.437 -07:00 [ERR] An error occurred seeding the DB. Unable to connect to any of the specified MySQL hosts.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.MySqlClient.NativeDriver.<>c.<OpenAsync>b__38_0(Exception ex)
+   at System.AggregateException.Handle(Func`2 predicate)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.<>c__DisplayClass16_0.<Exists>b__0(DateTime giveUp)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext _, TState s)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.Exists(Boolean retryOnNotExists)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.Exists()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   at Program.<<Main>$>g__SeedDatabase|0_3(WebApplication app) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web\Program.cs:line 92
+2024-03-15 09:02:18.519 -07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-15 09:02:18.537 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-03-15 09:02:18.587 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 09:02:18.587 -07:00 [INF] Hosting environment: Development
+2024-03-15 09:02:18.587 -07:00 [INF] Content root path: C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web
+2024-03-15 09:02:19.156 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-03-15 09:02:19.157 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 623.8561ms
+2024-03-15 09:02:19.227 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 71.5823ms
+2024-03-15 09:02:19.303 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 09:02:19.306 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.4551ms
+2024-03-15 09:02:19.306 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-03-15 09:02:19.433 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 126.0624ms
+2024-03-15 09:02:19.585 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-03-15 09:02:19.884 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 298.323ms
+2024-03-15 11:41:36.712 -07:00 [INF] Registered 5 endpoints in 12,561 milliseconds.
+2024-03-15 11:41:46.722 -07:00 [ERR] An error occurred seeding the DB. Unable to connect to any of the specified MySQL hosts.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.MySqlClient.NativeDriver.<>c.<OpenAsync>b__38_0(Exception ex)
+   at System.AggregateException.Handle(Func`2 predicate)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.<>c__DisplayClass16_0.<Exists>b__0(DateTime giveUp)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext _, TState s)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.Exists(Boolean retryOnNotExists)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.Exists()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   at Program.<<Main>$>g__SeedDatabase|0_3(WebApplication app) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web\Program.cs:line 92
+2024-03-15 11:41:46.769 -07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-15 11:41:46.779 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-03-15 11:41:46.810 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 11:41:46.810 -07:00 [INF] Hosting environment: Development
+2024-03-15 11:41:46.810 -07:00 [INF] Content root path: C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web
+2024-03-15 11:41:46.850 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-03-15 11:41:46.852 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 74.6911ms
+2024-03-15 11:41:46.907 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 56.2467ms
+2024-03-15 11:41:46.911 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 11:41:46.914 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.5191ms
+2024-03-15 11:41:46.937 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-03-15 11:41:46.958 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.9854ms
+2024-03-15 11:41:47.090 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-03-15 11:41:47.354 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 266.8188ms
+2024-03-15 11:41:53.437 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors - null null
+2024-03-15 11:41:53.444 -07:00 [WRN] Failed to determine the https port for redirect.
+2024-03-15 11:41:53.451 -07:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2024-03-15 11:42:02.715 -07:00 [INF] Handling ListContributorsQuery
+2024-03-15 11:42:02.715 -07:00 [INF] Property Skip : null
+2024-03-15 11:42:02.715 -07:00 [INF] Property Take : null
+2024-03-15 11:42:04.864 -07:00 [ERR] An error occurred using the connection to database 'cleanarchitecture' on server 'localhost'.
+2024-03-15 11:42:04.873 -07:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Personas.DDD.Infrastructure.Data.AppDbContext'.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.Common.StreamCreator.GetTcpStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.Common.StreamCreator.GetStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.Common.StreamCreator.GetTcpStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.Common.StreamCreator.GetStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-03-15 11:42:04.969 -07:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2024-03-15 11:42:04.971 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.Common.StreamCreator.GetTcpStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.Common.StreamCreator.GetStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Personas.DDD.Infrastructure.Data.Queries.ListContributorsQueryService.ListAsync() in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Infrastructure\Data\Queries\ListContributorsQueryService.cs:line 15
+   at Personas.DDD.UseCases.Contributors.List.ListContributorsHandler.Handle(ListContributorsQuery request, CancellationToken cancellationToken) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.UseCases\Contributors\List\ListContributorsHandler.cs:line 11
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Personas.DDD.Web.Contributors.List.HandleAsync(CancellationToken cancellationToken) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web\Contributors\List.cs:line 25
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-15 11:42:04.981 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors - 500 null text/plain; charset=utf-8 11544.1488ms
+2024-03-15 11:45:04.142 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors - null null
+2024-03-15 11:45:04.143 -07:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2024-03-15 11:45:23.815 -07:00 [INF] Handling ListContributorsQuery
+2024-03-15 11:45:23.816 -07:00 [INF] Property Skip : null
+2024-03-15 11:45:23.816 -07:00 [INF] Property Take : null
+2024-03-15 11:45:25.909 -07:00 [ERR] An error occurred using the connection to database 'cleanarchitecture' on server 'localhost'.
+2024-03-15 11:45:25.910 -07:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Personas.DDD.Infrastructure.Data.AppDbContext'.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.Common.StreamCreator.GetTcpStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.Common.StreamCreator.GetStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.Common.StreamCreator.GetTcpStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.Common.StreamCreator.GetStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-03-15 11:45:25.988 -07:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2024-03-15 11:45:25.989 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.Common.StreamCreator.GetTcpStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.Common.StreamCreator.GetStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Personas.DDD.Infrastructure.Data.Queries.ListContributorsQueryService.ListAsync() in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Infrastructure\Data\Queries\ListContributorsQueryService.cs:line 15
+   at Personas.DDD.UseCases.Contributors.List.ListContributorsHandler.Handle(ListContributorsQuery request, CancellationToken cancellationToken) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.UseCases\Contributors\List\ListContributorsHandler.cs:line 11
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Personas.DDD.Web.Contributors.List.HandleAsync(CancellationToken cancellationToken) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web\Contributors\List.cs:line 25
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-15 11:45:25.993 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors - 500 null text/plain; charset=utf-8 21851.0512ms
+2024-03-15 12:11:27.200 -07:00 [INF] Registered 5 endpoints in 3,397 milliseconds.
+2024-03-15 12:11:30.440 -07:00 [ERR] An error occurred seeding the DB. Unable to connect to any of the specified MySQL hosts.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.MySqlClient.NativeDriver.<>c.<OpenAsync>b__38_0(Exception ex)
+   at System.AggregateException.Handle(Func`2 predicate)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.<>c__DisplayClass16_0.<Exists>b__0(DateTime giveUp)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext _, TState s)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.Exists(Boolean retryOnNotExists)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.Exists()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   at Program.<<Main>$>g__SeedDatabase|0_3(WebApplication app) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web\Program.cs:line 92
+2024-03-15 12:11:30.499 -07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-15 12:11:30.520 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-03-15 12:11:30.558 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 12:11:30.558 -07:00 [INF] Hosting environment: Development
+2024-03-15 12:11:30.558 -07:00 [INF] Content root path: C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web
+2024-03-15 12:11:31.132 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-03-15 12:11:31.133 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 616.8409ms
+2024-03-15 12:11:31.193 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 60.9719ms
+2024-03-15 12:11:31.203 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 12:11:31.207 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 3.947ms
+2024-03-15 12:11:31.228 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-03-15 12:11:31.255 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.3509ms
+2024-03-15 12:11:31.482 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-03-15 12:11:31.768 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 285.3898ms
+2024-03-15 12:12:40.461 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors - null null
+2024-03-15 12:12:40.464 -07:00 [WRN] Failed to determine the https port for redirect.
+2024-03-15 12:12:40.470 -07:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:12:42.645 -07:00 [INF] Handling ListContributorsQuery
+2024-03-15 12:12:42.645 -07:00 [INF] Property Skip : null
+2024-03-15 12:12:42.645 -07:00 [INF] Property Take : null
+2024-03-15 12:12:44.970 -07:00 [ERR] An error occurred using the connection to database 'cleanarchitecture' on server 'localhost'.
+2024-03-15 12:12:44.986 -07:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Personas.DDD.Infrastructure.Data.AppDbContext'.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.Common.StreamCreator.GetTcpStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.Common.StreamCreator.GetStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.Common.StreamCreator.GetTcpStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.Common.StreamCreator.GetStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-03-15 12:12:45.245 -07:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:12:45.254 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.Common.StreamCreator.GetTcpStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.Common.StreamCreator.GetStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Personas.DDD.Infrastructure.Data.Queries.ListContributorsQueryService.ListAsync() in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Infrastructure\Data\Queries\ListContributorsQueryService.cs:line 15
+   at Personas.DDD.UseCases.Contributors.List.ListContributorsHandler.Handle(ListContributorsQuery request, CancellationToken cancellationToken) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.UseCases\Contributors\List\ListContributorsHandler.cs:line 11
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Personas.DDD.Web.Contributors.List.HandleAsync(CancellationToken cancellationToken) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web\Contributors\List.cs:line 25
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-15 12:12:45.276 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors - 500 null text/plain; charset=utf-8 4815.0535ms
+2024-03-15 12:14:21.848 -07:00 [INF] Registered 5 endpoints in 2,733 milliseconds.
+2024-03-15 12:14:22.623 -07:00 [ERR] An error occurred seeding the DB. Value '3306,Database=cleanarchitecture' is not of the correct type.
+System.ArgumentException: Value '3306,Database=cleanarchitecture' is not of the correct type.
+   at MySql.Data.Common.MySqlConnectionStringOption.ValidateValue(Object& value, String keyword, Boolean isXProtocol)
+   at MySql.Data.Common.MySqlConnectionStringOption.<>c.<.ctor>b__3_0(MySqlBaseConnectionStringBuilder msb, MySqlConnectionStringOption sender, Object value)
+   at MySql.Data.MySqlClient.MySqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at MySql.Data.MySqlClient.MySqlConnectionStringBuilder..ctor(String connectionString, Boolean isAnalyzed)
+   at MySql.EntityFrameworkCore.Internal.MySQLOptions.GetConnectionSettings(MySQLOptionsExtension relationalOptions)
+   at MySql.EntityFrameworkCore.Internal.MySQLOptions.Initialize(IDbContextOptions options)
+   at Microsoft.EntityFrameworkCore.Internal.SingletonOptionsInitializer.EnsureInitialized(IServiceProvider serviceProvider, IDbContextOptions options)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<GetOrAdd>g__BuildServiceProvider|4_1(IDbContextOptions _, ValueTuple`2 arguments)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<>c.<GetOrAdd>b__4_0(IDbContextOptions contextOptions, ValueTuple`2 tuples)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)
+   at Microsoft.EntityFrameworkCore.DbContext..ctor(DbContextOptions options)
+   at Personas.DDD.Infrastructure.Data.AppDbContext..ctor(DbContextOptions`1 options, IDomainEventDispatcher dispatcher) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Infrastructure\Data\AppDbContext.cs:line 13
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Program.<<Main>$>g__SeedDatabase|0_3(WebApplication app) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web\Program.cs:line 90
+2024-03-15 12:14:22.679 -07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-15 12:14:22.689 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-03-15 12:14:22.720 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 12:14:22.721 -07:00 [INF] Hosting environment: Development
+2024-03-15 12:14:22.721 -07:00 [INF] Content root path: C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web
+2024-03-15 12:14:22.761 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-03-15 12:14:22.762 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 73.4026ms
+2024-03-15 12:14:22.826 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 64.2774ms
+2024-03-15 12:14:22.911 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 12:14:22.913 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-03-15 12:14:22.913 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.052ms
+2024-03-15 12:14:22.933 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.6056ms
+2024-03-15 12:14:23.083 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-03-15 12:14:23.323 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 239.6361ms
+2024-03-15 12:14:31.102 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors - null null
+2024-03-15 12:14:31.104 -07:00 [WRN] Failed to determine the https port for redirect.
+2024-03-15 12:14:31.106 -07:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:14:32.692 -07:00 [INF] Handling ListContributorsQuery
+2024-03-15 12:14:32.692 -07:00 [INF] Property Skip : null
+2024-03-15 12:14:32.693 -07:00 [INF] Property Take : null
+2024-03-15 12:14:44.003 -07:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:14:44.004 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Value '3306,Database=cleanarchitecture' is not of the correct type.
+   at MySql.Data.Common.MySqlConnectionStringOption.ValidateValue(Object& value, String keyword, Boolean isXProtocol)
+   at MySql.Data.Common.MySqlConnectionStringOption.<>c.<.ctor>b__3_0(MySqlBaseConnectionStringBuilder msb, MySqlConnectionStringOption sender, Object value)
+   at MySql.Data.MySqlClient.MySqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at MySql.Data.MySqlClient.MySqlConnectionStringBuilder..ctor(String connectionString, Boolean isAnalyzed)
+   at MySql.EntityFrameworkCore.Internal.MySQLOptions.GetConnectionSettings(MySQLOptionsExtension relationalOptions)
+   at MySql.EntityFrameworkCore.Internal.MySQLOptions.Initialize(IDbContextOptions options)
+   at Microsoft.EntityFrameworkCore.Internal.SingletonOptionsInitializer.EnsureInitialized(IServiceProvider serviceProvider, IDbContextOptions options)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<GetOrAdd>g__BuildServiceProvider|4_1(IDbContextOptions _, ValueTuple`2 arguments)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<>c.<GetOrAdd>b__4_0(IDbContextOptions contextOptions, ValueTuple`2 tuples)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)
+   at Microsoft.EntityFrameworkCore.DbContext..ctor(DbContextOptions options)
+   at Personas.DDD.Infrastructure.Data.AppDbContext..ctor(DbContextOptions`1 options, IDomainEventDispatcher dispatcher) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Infrastructure\Data\AppDbContext.cs:line 13
+   at InvokeStub_AppDbContext..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Personas.DDD.Web.Contributors.List.HandleAsync(CancellationToken cancellationToken) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web\Contributors\List.cs:line 25
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-15 12:14:44.008 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors - 500 null text/plain; charset=utf-8 12906.1699ms
+2024-03-15 12:15:51.763 -07:00 [INF] Registered 5 endpoints in 22,901 milliseconds.
+2024-03-15 12:15:52.957 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `cleanarchitecture`
+2024-03-15 12:15:53.016 -07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Contributors` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(100) NOT NULL,
+    `Status` int NOT NULL,
+    `PhoneNumber_CountryCode` longtext NULL,
+    `PhoneNumber_Number` longtext NULL,
+    `PhoneNumber_Extension` longtext NULL,
+    PRIMARY KEY (`Id`)
+);
+2024-03-15 12:15:53.108 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `Contributors` AS `c`)
+2024-03-15 12:15:53.138 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Name`, `c`.`Status`, `c`.`PhoneNumber_CountryCode`, `c`.`PhoneNumber_Extension`, `c`.`PhoneNumber_Number`
+FROM `Contributors` AS `c`
+2024-03-15 12:15:53.223 -07:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = Int32), @p2='?' (Size = 100), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Contributors` (`Name`, `Status`)
+VALUES (@p0, @p1);
+SELECT `Id`
+FROM `Contributors`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+
+INSERT INTO `Contributors` (`Name`, `Status`)
+VALUES (@p2, @p3);
+SELECT `Id`
+FROM `Contributors`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-03-15 12:15:53.278 -07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-15 12:15:53.287 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-03-15 12:15:53.327 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 12:15:53.327 -07:00 [INF] Hosting environment: Development
+2024-03-15 12:15:53.327 -07:00 [INF] Content root path: C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web
+2024-03-15 12:15:53.362 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-03-15 12:15:53.363 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 77.8938ms
+2024-03-15 12:15:53.419 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 57.3088ms
+2024-03-15 12:15:53.485 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 12:15:53.485 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-03-15 12:15:53.487 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 4.2578ms
+2024-03-15 12:15:53.507 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.6739ms
+2024-03-15 12:15:53.556 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-03-15 12:15:53.815 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 258.2882ms
+2024-03-15 12:16:00.302 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors - null null
+2024-03-15 12:16:00.304 -07:00 [WRN] Failed to determine the https port for redirect.
+2024-03-15 12:16:00.311 -07:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:16:01.796 -07:00 [INF] Handling ListContributorsQuery
+2024-03-15 12:16:01.797 -07:00 [INF] Property Skip : null
+2024-03-15 12:16:01.797 -07:00 [INF] Property Take : null
+2024-03-15 12:16:01.908 -07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT Id, Name, PhoneNumber_Number AS PhoneNumber FROM Contributors
+2024-03-15 12:16:01.918 -07:00 [INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[Personas.DDD.UseCases.Contributors.ContributorDTO]] in 120 ms
+2024-03-15 12:16:02.506 -07:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:16:02.512 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors - 200 null application/json 2210.3102ms
+2024-03-15 12:23:20.276 -07:00 [INF] Registered 5 endpoints in 7,739 milliseconds.
+2024-03-15 12:23:21.563 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+        FROM information_schema.tables
+        WHERE table_type = 'BASE TABLE' AND table_schema = 'cleanarchitecture'
+2024-03-15 12:23:21.645 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `Contributors` AS `c`)
+2024-03-15 12:23:21.694 -07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-15 12:23:21.705 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-03-15 12:23:21.736 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 12:23:21.738 -07:00 [INF] Hosting environment: Development
+2024-03-15 12:23:21.738 -07:00 [INF] Content root path: C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web
+2024-03-15 12:23:21.774 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-03-15 12:23:21.774 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 71.38ms
+2024-03-15 12:23:21.830 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 56.5501ms
+2024-03-15 12:23:21.909 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 12:23:21.911 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.1194ms
+2024-03-15 12:23:21.913 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-03-15 12:23:21.935 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.3233ms
+2024-03-15 12:23:22.077 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-03-15 12:23:22.325 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 248.0382ms
+2024-03-15 12:23:29.600 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors - null null
+2024-03-15 12:23:29.604 -07:00 [WRN] Failed to determine the https port for redirect.
+2024-03-15 12:23:29.609 -07:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:25:16.664 -07:00 [INF] Handling ListContributorsQuery
+2024-03-15 12:25:16.665 -07:00 [INF] Property Skip : null
+2024-03-15 12:25:16.665 -07:00 [INF] Property Take : null
+2024-03-15 12:25:16.842 -07:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT Id, Name, PhoneNumber_Number AS PhoneNumber FROM Contributors
+2024-03-15 12:25:16.852 -07:00 [INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[Personas.DDD.UseCases.Contributors.ContributorDTO]] in 186 ms
+2024-03-15 12:25:20.358 -07:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:25:20.361 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors - 200 null application/json 110760.9987ms
+2024-03-15 12:25:24.505 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors - null null
+2024-03-15 12:25:24.505 -07:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:25:45.212 -07:00 [INF] Handling ListContributorsQuery
+2024-03-15 12:25:45.216 -07:00 [INF] Property Skip : null
+2024-03-15 12:25:45.216 -07:00 [INF] Property Take : null
+2024-03-15 12:25:45.240 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT Id, Name, PhoneNumber_Number AS PhoneNumber FROM Contributors
+2024-03-15 12:25:45.240 -07:00 [INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[Personas.DDD.UseCases.Contributors.ContributorDTO]] in 23 ms
+2024-03-15 12:25:58.412 -07:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:25:58.412 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors - 200 null application/json 33907.4129ms
+2024-03-15 12:26:00.586 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors - null null
+2024-03-15 12:26:00.586 -07:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:26:44.441 -07:00 [INF] Handling ListContributorsQuery
+2024-03-15 12:26:44.441 -07:00 [INF] Property Skip : null
+2024-03-15 12:26:44.441 -07:00 [INF] Property Take : null
+2024-03-15 12:26:44.452 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT Id, Name, PhoneNumber_Number AS PhoneNumber FROM Contributors
+2024-03-15 12:26:57.014 -07:00 [INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[Personas.DDD.UseCases.Contributors.ContributorDTO]] in 12572 ms
+2024-03-15 12:29:07.051 -07:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:29:07.052 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors - 200 null application/json 186465.9187ms
+2024-03-15 12:30:50.106 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors - null null
+2024-03-15 12:30:50.108 -07:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:31:06.608 -07:00 [INF] Handling ListContributorsQuery
+2024-03-15 12:31:06.608 -07:00 [INF] Property Skip : null
+2024-03-15 12:31:06.608 -07:00 [INF] Property Take : null
+2024-03-15 12:31:06.637 -07:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT Id, Name, PhoneNumber_Number AS PhoneNumber FROM Contributors
+2024-03-15 12:31:18.125 -07:00 [INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[Personas.DDD.UseCases.Contributors.ContributorDTO]] in 11516 ms
+2024-03-15 12:31:20.507 -07:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:31:20.507 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors - 200 null application/json 30403.4075ms
+2024-03-15 12:31:42.258 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors - null null
+2024-03-15 12:31:42.258 -07:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:31:52.968 -07:00 [INF] Handling ListContributorsQuery
+2024-03-15 12:31:52.969 -07:00 [INF] Property Skip : null
+2024-03-15 12:31:52.969 -07:00 [INF] Property Take : null
+2024-03-15 12:31:52.981 -07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT Id, Name, PhoneNumber_Number AS PhoneNumber FROM Contributors
+2024-03-15 12:32:07.298 -07:00 [INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[Personas.DDD.UseCases.Contributors.ContributorDTO]] in 14329 ms
+2024-03-15 12:32:14.000 -07:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:32:14.001 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors - 200 null application/json 31745.1509ms
+2024-03-15 12:33:17.336 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors - null null
+2024-03-15 12:33:17.337 -07:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2024-03-15 12:33:20.253 -07:00 [INF] Handling ListContributorsQuery
+2024-03-15 12:33:20.253 -07:00 [INF] Property Skip : null
+2024-03-15 12:33:20.253 -07:00 [INF] Property Take : null
+2024-03-15 12:33:20.263 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT Id, Name, PhoneNumber_Number AS PhoneNumber FROM Contributors
+2024-03-15 12:33:25.863 -07:00 [INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[Personas.DDD.UseCases.Contributors.ContributorDTO]] in 5609 ms
+2024-03-15 13:23:12.623 -07:00 [INF] Registered 5 endpoints in 20,718 milliseconds.
+2024-03-15 13:23:51.169 -07:00 [ERR] An error occurred seeding the DB. Unable to connect to any of the specified MySQL hosts.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.MySqlClient.NativeDriver.<>c.<OpenAsync>b__38_0(Exception ex)
+   at System.AggregateException.Handle(Func`2 predicate)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.<>c__DisplayClass16_0.<Exists>b__0(DateTime giveUp)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext _, TState s)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.Exists(Boolean retryOnNotExists)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.Exists()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   at Program.<<Main>$>g__SeedDatabase|0_3(WebApplication app) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web\Program.cs:line 92
+2024-03-15 13:23:51.228 -07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-15 13:23:51.249 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-03-15 13:23:51.284 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 13:23:51.285 -07:00 [INF] Hosting environment: Development
+2024-03-15 13:23:51.285 -07:00 [INF] Content root path: C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web
+2024-03-15 13:23:51.858 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-03-15 13:23:51.858 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 611.1383ms
+2024-03-15 13:23:51.924 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 66.0844ms
+2024-03-15 13:23:51.998 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 13:23:52.000 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-03-15 13:23:52.000 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.1766ms
+2024-03-15 13:23:52.052 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.1717ms
+2024-03-15 13:23:52.170 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-03-15 13:23:52.426 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 256.6922ms
+2024-03-15 13:25:06.083 -07:00 [INF] Registered 5 endpoints in 5,595 milliseconds.
+2024-03-15 13:25:11.456 -07:00 [ERR] An error occurred seeding the DB. Unable to connect to any of the specified MySQL hosts.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.MySqlClient.NativeDriver.<>c.<OpenAsync>b__38_0(Exception ex)
+   at System.AggregateException.Handle(Func`2 predicate)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.<>c__DisplayClass16_0.<Exists>b__0(DateTime giveUp)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext _, TState s)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.Exists(Boolean retryOnNotExists)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.Exists()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   at Program.<<Main>$>g__SeedDatabase|0_3(WebApplication app) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web\Program.cs:line 92
+2024-03-15 13:25:11.502 -07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-15 13:25:11.511 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-03-15 13:25:11.551 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 13:25:11.551 -07:00 [INF] Hosting environment: Development
+2024-03-15 13:25:11.552 -07:00 [INF] Content root path: C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web
+2024-03-15 13:25:11.580 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-03-15 13:25:11.581 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 70.8454ms
+2024-03-15 13:25:11.639 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 59.2861ms
+2024-03-15 13:25:11.710 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 13:25:11.713 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.1041ms
+2024-03-15 13:25:11.718 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-03-15 13:25:11.737 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.9152ms
+2024-03-15 13:25:11.881 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-03-15 13:25:12.133 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 251.8145ms
+2024-03-15 13:25:29.355 -07:00 [INF] Registered 5 endpoints in 6,281 milliseconds.
+2024-03-15 13:25:36.469 -07:00 [ERR] An error occurred seeding the DB. Unable to connect to any of the specified MySQL hosts.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.MySqlClient.NativeDriver.<>c.<OpenAsync>b__38_0(Exception ex)
+   at System.AggregateException.Handle(Func`2 predicate)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.<>c__DisplayClass16_0.<Exists>b__0(DateTime giveUp)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext _, TState s)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.Exists(Boolean retryOnNotExists)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLDatabaseCreator.Exists()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   at Program.<<Main>$>g__SeedDatabase|0_3(WebApplication app) in C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web\Program.cs:line 92
+2024-03-15 13:25:36.515 -07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-15 13:25:36.525 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-03-15 13:25:36.555 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 13:25:36.558 -07:00 [INF] Hosting environment: Development
+2024-03-15 13:25:36.559 -07:00 [INF] Content root path: C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web
+2024-03-15 13:25:36.591 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-03-15 13:25:36.592 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 70.1944ms
+2024-03-15 13:25:36.650 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 58.7952ms
+2024-03-15 13:25:36.652 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 13:25:36.655 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 3.0711ms
+2024-03-15 13:25:36.679 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-03-15 13:25:36.699 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.1862ms
+2024-03-15 13:25:36.746 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-03-15 13:25:37.015 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 268.1528ms
+2024-03-15 13:31:40.435 -07:00 [INF] Registered 5 endpoints in 6,149 milliseconds.
+2024-03-15 13:31:58.335 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `cleanarchitecture`
+2024-03-15 13:31:58.387 -07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Contributors` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(100) NOT NULL,
+    `Status` int NOT NULL,
+    `PhoneNumber_CountryCode` longtext NULL,
+    `PhoneNumber_Number` longtext NULL,
+    `PhoneNumber_Extension` longtext NULL,
+    PRIMARY KEY (`Id`)
+);
+2024-03-15 13:33:00.030 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `Contributors` AS `c`)
+2024-03-15 13:33:06.684 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Name`, `c`.`Status`, `c`.`PhoneNumber_CountryCode`, `c`.`PhoneNumber_Extension`, `c`.`PhoneNumber_Number`
+FROM `Contributors` AS `c`
+2024-03-15 13:33:09.128 -07:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = Int32), @p2='?' (Size = 100), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Contributors` (`Name`, `Status`)
+VALUES (@p0, @p1);
+SELECT `Id`
+FROM `Contributors`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+
+INSERT INTO `Contributors` (`Name`, `Status`)
+VALUES (@p2, @p3);
+SELECT `Id`
+FROM `Contributors`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-03-15 13:33:09.187 -07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-15 13:33:09.198 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-03-15 13:33:09.241 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 13:33:09.241 -07:00 [INF] Hosting environment: Development
+2024-03-15 13:33:09.241 -07:00 [INF] Content root path: C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web
+2024-03-15 13:33:09.273 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-03-15 13:33:09.274 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 76.3185ms
+2024-03-15 13:33:09.331 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 58.2854ms
+2024-03-15 13:33:09.404 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 13:33:09.407 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.2752ms
+2024-03-15 13:33:09.414 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-03-15 13:33:09.435 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.5287ms
+2024-03-15 13:33:09.616 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-03-15 13:33:09.862 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 245.6432ms
+2024-03-15 13:35:03.179 -07:00 [INF] Registered 5 endpoints in 66,947 milliseconds.
+2024-03-15 13:35:29.631 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `cleanarchitecture`
+2024-03-15 13:35:29.695 -07:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Contributors` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(100) NOT NULL,
+    `Status` int NOT NULL,
+    `PhoneNumber_CountryCode` longtext NULL,
+    `PhoneNumber_Number` longtext NULL,
+    `PhoneNumber_Extension` longtext NULL,
+    PRIMARY KEY (`Id`)
+);
+2024-03-15 13:35:38.421 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `Contributors` AS `c`)
+2024-03-15 13:35:39.739 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Name`, `c`.`Status`, `c`.`PhoneNumber_CountryCode`, `c`.`PhoneNumber_Extension`, `c`.`PhoneNumber_Number`
+FROM `Contributors` AS `c`
+2024-03-15 13:35:41.142 -07:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = Int32), @p2='?' (Size = 100), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Contributors` (`Name`, `Status`)
+VALUES (@p0, @p1);
+SELECT `Id`
+FROM `Contributors`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+
+INSERT INTO `Contributors` (`Name`, `Status`)
+VALUES (@p2, @p3);
+SELECT `Id`
+FROM `Contributors`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-03-15 13:35:41.838 -07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-15 13:35:41.848 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-03-15 13:35:41.888 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 13:35:41.888 -07:00 [INF] Hosting environment: Development
+2024-03-15 13:35:41.888 -07:00 [INF] Content root path: C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Web
+2024-03-15 13:35:41.919 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-03-15 13:35:41.920 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 74.2475ms
+2024-03-15 13:35:41.977 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 57.3035ms
+2024-03-15 13:35:41.992 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 13:35:41.995 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.4074ms
+2024-03-15 13:35:42.052 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-03-15 13:35:42.070 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.0682ms
+2024-03-15 13:35:42.211 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-03-15 13:35:42.469 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 258.2263ms
+2024-03-15 13:35:57.796 -07:00 [INF] Registered 5 endpoints in 4,429 milliseconds.

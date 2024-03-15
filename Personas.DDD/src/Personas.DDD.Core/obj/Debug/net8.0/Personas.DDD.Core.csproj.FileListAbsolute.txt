@@ -10,3 +10,16 @@ C:\clean\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.d
 C:\clean\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\refint\Personas.DDD.Core.dll
 C:\clean\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.pdb
 C:\clean\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\ref\Personas.DDD.Core.dll
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\bin\Debug\net8.0\Personas.DDD.Core.deps.json
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\bin\Debug\net8.0\Personas.DDD.Core.dll
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\bin\Debug\net8.0\Personas.DDD.Core.pdb
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.csproj.AssemblyReference.cache
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.AssemblyInfoInputs.cache
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.AssemblyInfo.cs
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.csproj.CoreCompileInputs.cache
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.sourcelink.json
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.dll
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\refint\Personas.DDD.Core.dll
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.pdb
+C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\ref\Personas.DDD.Core.dll

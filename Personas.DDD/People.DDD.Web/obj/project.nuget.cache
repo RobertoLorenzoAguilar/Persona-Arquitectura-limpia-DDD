@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Lj8+QD1HwFJKAdJfXyq8H+b3JOVPkXDRqSp7Z6qSzuPu0ZHvi1j33Sz5gUZqywNmIAUrrFQeeJTuf/21GOPvfA==",
+  "success": false,
+  "projectFilePath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.Web\\People.DDD.Web.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1008",
+      "level": "Error",
+      "message": "Los proyectos que usan la administración central de versiones de paquetes no deben definir la versión de los elementos PackageReference, sino la de los elementos de PackageVersion: Swashbuckle.AspNetCore."
+    }
+  ]
+}

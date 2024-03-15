@@ -1,22 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\clean\\Personas.DDD\\",
+  "WorkspaceRootPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9751CB7-4CD6-4633-A99A-4F6ADD525437}|src\\Personas.DDD.Web\\Personas.DDD.Web.csproj|c:\\clean\\personas.ddd\\src\\personas.ddd.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C9751CB7-4CD6-4633-A99A-4F6ADD525437}|src\\Personas.DDD.Web\\Personas.DDD.Web.csproj|solutionrelative:src\\personas.ddd.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5840687A-95C1-4185-8268-092A26A57F98}|People.DDD.UseCase\\People.DDD.UseCase.csproj|c:\\persona-arquitectura-limpia-ddd\\personas.ddd\\people.ddd.usecase\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5840687A-95C1-4185-8268-092A26A57F98}|People.DDD.UseCase\\People.DDD.UseCase.csproj|solutionrelative:people.ddd.usecase\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{220361D6-9C76-4E3F-BD34-3C7B50E2CA4D}|src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj|c:\\clean\\personas.ddd\\src\\personas.ddd.infrastructure\\infrastructureserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{220361D6-9C76-4E3F-BD34-3C7B50E2CA4D}|src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj|solutionrelative:src\\personas.ddd.infrastructure\\infrastructureserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3861B7A9-683E-4338-86A1-ACB9713AC6E5}|People.DDD.Infrastructure\\People.DDD.Infrastructure.csproj|c:\\persona-arquitectura-limpia-ddd\\personas.ddd\\people.ddd.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3861B7A9-683E-4338-86A1-ACB9713AC6E5}|People.DDD.Infrastructure\\People.DDD.Infrastructure.csproj|solutionrelative:people.ddd.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{220361D6-9C76-4E3F-BD34-3C7B50E2CA4D}|src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj|c:\\clean\\personas.ddd\\src\\personas.ddd.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{220361D6-9C76-4E3F-BD34-3C7B50E2CA4D}|src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj|solutionrelative:src\\personas.ddd.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D038621D-A18C-4386-A411-E877739E3C20}|People.DDD.Core\\People.DDD.Core.csproj|c:\\persona-arquitectura-limpia-ddd\\personas.ddd\\people.ddd.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038621D-A18C-4386-A411-E877739E3C20}|People.DDD.Core\\People.DDD.Core.csproj|solutionrelative:people.ddd.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{220361D6-9C76-4E3F-BD34-3C7B50E2CA4D}|src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj|c:\\clean\\personas.ddd\\src\\personas.ddd.infrastructure\\data\\appdbcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9751CB7-4CD6-4633-A99A-4F6ADD525437}|src\\Personas.DDD.Web\\Personas.DDD.Web.csproj|c:\\persona-arquitectura-limpia-ddd\\personas.ddd\\src\\personas.ddd.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9751CB7-4CD6-4633-A99A-4F6ADD525437}|src\\Personas.DDD.Web\\Personas.DDD.Web.csproj|solutionrelative:src\\personas.ddd.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9751CB7-4CD6-4633-A99A-4F6ADD525437}|src\\Personas.DDD.Web\\Personas.DDD.Web.csproj|c:\\persona-arquitectura-limpia-ddd\\personas.ddd\\src\\personas.ddd.web\\contributors\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9751CB7-4CD6-4633-A99A-4F6ADD525437}|src\\Personas.DDD.Web\\Personas.DDD.Web.csproj|solutionrelative:src\\personas.ddd.web\\contributors\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj|c:\\persona-arquitectura-limpia-ddd\\personas.ddd\\src\\personas.ddd.usecases\\contributors\\contributordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj|solutionrelative:src\\personas.ddd.usecases\\contributors\\contributordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{220361D6-9C76-4E3F-BD34-3C7B50E2CA4D}|src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj|c:\\persona-arquitectura-limpia-ddd\\personas.ddd\\src\\personas.ddd.infrastructure\\data\\appdbcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{220361D6-9C76-4E3F-BD34-3C7B50E2CA4D}|src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj|solutionrelative:src\\personas.ddd.infrastructure\\data\\appdbcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{220361D6-9C76-4E3F-BD34-3C7B50E2CA4D}|src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj|c:\\persona-arquitectura-limpia-ddd\\personas.ddd\\src\\personas.ddd.infrastructure\\data\\config\\dataschemaconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{220361D6-9C76-4E3F-BD34-3C7B50E2CA4D}|src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj|solutionrelative:src\\personas.ddd.infrastructure\\data\\config\\dataschemaconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{220361D6-9C76-4E3F-BD34-3C7B50E2CA4D}|src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj|c:\\persona-arquitectura-limpia-ddd\\personas.ddd\\src\\personas.ddd.infrastructure\\data\\config\\contributorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{220361D6-9C76-4E3F-BD34-3C7B50E2CA4D}|src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj|solutionrelative:src\\personas.ddd.infrastructure\\data\\config\\contributorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj|c:\\persona-arquitectura-limpia-ddd\\personas.ddd\\src\\personas.ddd.usecases\\contributors\\list\\listcontributorsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj|solutionrelative:src\\personas.ddd.usecases\\contributors\\list\\listcontributorsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj|c:\\persona-arquitectura-limpia-ddd\\personas.ddd\\src\\personas.ddd.usecases\\contributors\\list\\ilistcontributorsqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj|solutionrelative:src\\personas.ddd.usecases\\contributors\\list\\ilistcontributorsqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj|c:\\persona-arquitectura-limpia-ddd\\personas.ddd\\src\\personas.ddd.usecases\\contributors\\list\\listcontributorshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj|solutionrelative:src\\personas.ddd.usecases\\contributors\\list\\listcontributorshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9751CB7-4CD6-4633-A99A-4F6ADD525437}|src\\Personas.DDD.Web\\Personas.DDD.Web.csproj|c:\\persona-arquitectura-limpia-ddd\\personas.ddd\\src\\personas.ddd.web\\contributors\\create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9751CB7-4CD6-4633-A99A-4F6ADD525437}|src\\Personas.DDD.Web\\Personas.DDD.Web.csproj|solutionrelative:src\\personas.ddd.web\\contributors\\create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +62,174 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContextExtensions.cs",
-              "DocumentMoniker": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Data\\AppDbContextExtensions.cs",
-              "RelativeDocumentMoniker": "src\\Personas.DDD.Infrastructure\\Data\\AppDbContextExtensions.cs",
-              "ToolTip": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Data\\AppDbContextExtensions.cs",
-              "RelativeToolTip": "src\\Personas.DDD.Infrastructure\\Data\\AppDbContextExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.UseCase\\Class1.cs",
+              "RelativeDocumentMoniker": "People.DDD.UseCase\\Class1.cs",
+              "ToolTip": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.UseCase\\Class1.cs",
+              "RelativeToolTip": "People.DDD.UseCase\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T11:10:23.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "src\\Personas.DDD.Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "src\\Personas.DDD.Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T11:10:09.192Z",
+              "WhenOpened": "2024-03-15T21:03:16.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InfrastructureServiceExtensions.cs",
-              "DocumentMoniker": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\InfrastructureServiceExtensions.cs",
-              "RelativeDocumentMoniker": "src\\Personas.DDD.Infrastructure\\InfrastructureServiceExtensions.cs",
-              "ToolTip": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\InfrastructureServiceExtensions.cs",
-              "RelativeToolTip": "src\\Personas.DDD.Infrastructure\\InfrastructureServiceExtensions.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAxwCIAAAAVAAAA",
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "People.DDD.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "People.DDD.Infrastructure\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T10:51:26.789Z",
+              "WhenOpened": "2024-03-15T21:02:44.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Web\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Personas.DDD.Web\\appsettings.json",
-              "ToolTip": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Web\\appsettings.json",
-              "RelativeToolTip": "src\\Personas.DDD.Web\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-14T10:47:40.773Z",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "People.DDD.Core\\Class1.cs",
+              "ToolTip": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.Core\\Class1.cs",
+              "RelativeToolTip": "People.DDD.Core\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T21:02:21.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Personas.DDD.Web\\Program.cs",
+              "ToolTip": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Program.cs",
+              "RelativeToolTip": "src\\Personas.DDD.Web\\Program.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAmwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:22:50.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContextExtensions.cs",
+              "DocumentMoniker": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Data\\AppDbContextExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Personas.DDD.Infrastructure\\Data\\AppDbContextExtensions.cs",
+              "ToolTip": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Data\\AppDbContextExtensions.cs",
+              "RelativeToolTip": "src\\Personas.DDD.Infrastructure\\Data\\AppDbContextExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:22:15.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataSchemaConstants.cs",
+              "DocumentMoniker": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Data\\Config\\DataSchemaConstants.cs",
+              "RelativeDocumentMoniker": "src\\Personas.DDD.Infrastructure\\Data\\Config\\DataSchemaConstants.cs",
+              "ToolTip": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Data\\Config\\DataSchemaConstants.cs",
+              "RelativeToolTip": "src\\Personas.DDD.Infrastructure\\Data\\Config\\DataSchemaConstants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:22:08.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContributorConfiguration.cs",
+              "DocumentMoniker": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Data\\Config\\ContributorConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Personas.DDD.Infrastructure\\Data\\Config\\ContributorConfiguration.cs",
+              "ToolTip": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Data\\Config\\ContributorConfiguration.cs",
+              "RelativeToolTip": "src\\Personas.DDD.Infrastructure\\Data\\Config\\ContributorConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:22:06.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContributorDTO.cs",
+              "DocumentMoniker": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Contributors\\ContributorDTO.cs",
+              "RelativeDocumentMoniker": "src\\Personas.DDD.UseCases\\Contributors\\ContributorDTO.cs",
+              "ToolTip": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Contributors\\ContributorDTO.cs",
+              "RelativeToolTip": "src\\Personas.DDD.UseCases\\Contributors\\ContributorDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:21:49.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IListContributorsQueryService.cs",
+              "DocumentMoniker": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Contributors\\List\\IListContributorsQueryService.cs",
+              "RelativeDocumentMoniker": "src\\Personas.DDD.UseCases\\Contributors\\List\\IListContributorsQueryService.cs",
+              "ToolTip": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Contributors\\List\\IListContributorsQueryService.cs",
+              "RelativeToolTip": "src\\Personas.DDD.UseCases\\Contributors\\List\\IListContributorsQueryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:21:47.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ListContributorsQuery.cs",
+              "DocumentMoniker": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Contributors\\List\\ListContributorsQuery.cs",
+              "RelativeDocumentMoniker": "src\\Personas.DDD.UseCases\\Contributors\\List\\ListContributorsQuery.cs",
+              "ToolTip": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Contributors\\List\\ListContributorsQuery.cs",
+              "RelativeToolTip": "src\\Personas.DDD.UseCases\\Contributors\\List\\ListContributorsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:21:46.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ListContributorsHandler.cs",
+              "DocumentMoniker": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Contributors\\List\\ListContributorsHandler.cs",
+              "RelativeDocumentMoniker": "src\\Personas.DDD.UseCases\\Contributors\\List\\ListContributorsHandler.cs",
+              "ToolTip": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Contributors\\List\\ListContributorsHandler.cs",
+              "RelativeToolTip": "src\\Personas.DDD.UseCases\\Contributors\\List\\ListContributorsHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:21:45.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cs",
+              "DocumentMoniker": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Contributors\\Create.cs",
+              "RelativeDocumentMoniker": "src\\Personas.DDD.Web\\Contributors\\Create.cs",
+              "ToolTip": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Contributors\\Create.cs",
+              "RelativeToolTip": "src\\Personas.DDD.Web\\Contributors\\Create.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T19:21:22.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "List.cs",
+              "DocumentMoniker": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Contributors\\List.cs",
+              "RelativeDocumentMoniker": "src\\Personas.DDD.Web\\Contributors\\List.cs",
+              "ToolTip": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Contributors\\List.cs",
+              "RelativeToolTip": "src\\Personas.DDD.Web\\Contributors\\List.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T16:02:26.007Z",
               "EditorCaption": ""
             }
           ]

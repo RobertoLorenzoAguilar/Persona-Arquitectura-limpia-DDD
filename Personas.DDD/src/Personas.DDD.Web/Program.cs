@@ -89,8 +89,8 @@ static void SeedDatabase(WebApplication app)
   {
     var context = services.GetRequiredService<AppDbContext>();
     //          context.Database.Migrate();
-    context.Database.EnsureCreated();
-    SeedData.Initialize(services);
+    context.Database.EnsureCreated(); //crea la base de datos
+    SeedData.Initialize(services); //agrega los valores
   }
   catch (Exception ex)
   {

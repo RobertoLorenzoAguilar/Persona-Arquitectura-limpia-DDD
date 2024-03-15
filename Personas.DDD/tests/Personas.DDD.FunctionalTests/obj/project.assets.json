@@ -9473,21 +9473,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\R\\.nuget\\packages\\": {}
+    "C:\\Users\\Dev\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\clean\\Personas.DDD\\tests\\Personas.DDD.FunctionalTests\\Personas.DDD.FunctionalTests.csproj",
+      "projectUniqueName": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\tests\\Personas.DDD.FunctionalTests\\Personas.DDD.FunctionalTests.csproj",
       "projectName": "Personas.DDD.FunctionalTests",
-      "projectPath": "C:\\clean\\Personas.DDD\\tests\\Personas.DDD.FunctionalTests\\Personas.DDD.FunctionalTests.csproj",
-      "packagesPath": "C:\\Users\\R\\.nuget\\packages\\",
-      "outputPath": "C:\\clean\\Personas.DDD\\tests\\Personas.DDD.FunctionalTests\\obj\\",
+      "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\tests\\Personas.DDD.FunctionalTests\\Personas.DDD.FunctionalTests.csproj",
+      "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
+      "outputPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\tests\\Personas.DDD.FunctionalTests\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "configFilePaths": [
-        "C:\\clean\\Personas.DDD\\NuGet.Config",
-        "C:\\Users\\R\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\NuGet.Config",
+        "C:\\Users\\Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9500,14 +9500,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj": {
-              "projectPath": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj"
+            "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj": {
+              "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj"
             },
-            "C:\\clean\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj": {
-              "projectPath": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj"
+            "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj": {
+              "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj"
             },
-            "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Web\\Personas.DDD.Web.csproj": {
-              "projectPath": "C:\\clean\\Personas.DDD\\src\\Personas.DDD.Web\\Personas.DDD.Web.csproj"
+            "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Personas.DDD.Web.csproj": {
+              "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Personas.DDD.Web.csproj"
             }
           }
         }
