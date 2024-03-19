@@ -1,6 +1,51 @@
-@People.DDD.Web_HostAddress = http://localhost:5238
+# @People.DDD.Web_HostAddress = http://localhost:5117
 
-GET {{People.DDD.Web_HostAddress}}/weatherforecast/
-Accept: application/json
+# GET {{People.DDD.Web_HostAddress}}/weatherforecast/
+# Accept: application/json
+
+# ###
+
+
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@host=https://localhost
+@port=57679
+
+// List all Peoples
+GET {{host}}:{{port}}/Peoples
 
 ###
+
+// Get a specific peoples
+@id_to_get=1
+GET {{host}}:{{port}}/Peoples/{{id_to_get}}
+
+###
+
+// Add a new peoples
+POST {{host}}:{{port}}/Peoples
+Content-Type: application/json
+
+{
+  "name": "John Doe 2",
+  "email": "test@test.com",
+  "phoneNumber": "1234567890"
+}
+
+###
+
+// Update a peoples
+@id_to_update=1
+PUT {{host}}:{{port}}/Peoples/{{id_to_update}}
+Content-Type: application/json
+
+{
+  "id": {{id_to_update}},
+  "name": "ardalis2"
+}
+
+###
+
+// Delete a peoples
+@id_to_delete=1
+DELETE {{host}}:{{port}}/Peoples/{{id_to_delete}}
+
