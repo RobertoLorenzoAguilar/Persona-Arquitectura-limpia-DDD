@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "W7QX9UeXGITCiJ3CmxmhBvWUkP+XSsaVu/6y6kodHH3tOxEPANFrPlLuQp4BHs6JDCbUbjH4b3NDbRcftphnug==",
+  "dgSpecHash": "qi16JRwE3Gy1I+rlQJrkMlSAr3Z60T95gUL9h/bvQzO/jDoesXLl2jXsDCKMoA/04IGlyla5q6iSTiYbsfCIuA==",
   "success": true,
-  "projectFilePath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.UseCase\\People.DDD.UseCase.csproj",
+  "projectFilePath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.UseCase\\People.DDD.UseCase.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Dev\\.nuget\\packages\\ardalis.guardclauses\\4.1.1\\ardalis.guardclauses.4.1.1.nupkg.sha512",
+    "C:\\Users\\Dev\\.nuget\\packages\\ardalis.guardclauses\\4.5.0\\ardalis.guardclauses.4.5.0.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\ardalis.result\\8.0.0\\ardalis.result.8.0.0.nupkg.sha512",
-    "C:\\Users\\Dev\\.nuget\\packages\\ardalis.sharedkernel\\1.4.0\\ardalis.sharedkernel.1.4.0.nupkg.sha512",
+    "C:\\Users\\Dev\\.nuget\\packages\\ardalis.sharedkernel\\1.5.0\\ardalis.sharedkernel.1.5.0.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\ardalis.specification\\7.0.0\\ardalis.specification.7.0.0.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

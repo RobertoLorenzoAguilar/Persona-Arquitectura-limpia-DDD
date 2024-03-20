@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Personas.DDD.Web.csproj": {}
+    "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Personas.DDD.Web.csproj": {}
   },
   "projects": {
-    "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj": {
+    "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj",
+        "projectUniqueName": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj",
         "projectName": "Personas.DDD.Core",
-        "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj",
+        "projectPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj",
         "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\obj\\",
+        "outputPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
-          "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\NuGet.Config",
+          "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\NuGet.Config",
           "C:\\Users\\Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,7 +59,7 @@
             },
             "Ardalis.SharedKernel": {
               "target": "Package",
-              "version": "[1.4.0, )",
+              "version": "[1.5.0, )",
               "versionCentrallyManaged": true
             },
             "Ardalis.SmartEnum": {
@@ -89,7 +89,7 @@
             "Ardalis.ListStartupServices": "[1.1.4, )",
             "Ardalis.Result": "[8.0.0, )",
             "Ardalis.Result.AspNetCore": "[8.0.0, )",
-            "Ardalis.SharedKernel": "[1.4.0, )",
+            "Ardalis.SharedKernel": "[1.5.0, )",
             "Ardalis.SmartEnum": "[8.0.0, )",
             "Ardalis.Specification": "[8.0.0, )",
             "Ardalis.Specification.EntityFrameworkCore": "[8.0.0, )",
@@ -102,6 +102,7 @@
             "MailKit": "[4.4.0, )",
             "MediatR": "[12.2.0, )",
             "Microsoft.AspNetCore.Mvc.Testing": "[8.0.2, )",
+            "Microsoft.EntityFrameworkCore": "[8.0.3, )",
             "Microsoft.EntityFrameworkCore.Design": "[8.0.2, )",
             "Microsoft.EntityFrameworkCore.InMemory": "[8.0.2, )",
             "Microsoft.EntityFrameworkCore.Relational": "[8.0.2, )",
@@ -144,18 +145,18 @@
         }
       }
     },
-    "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj": {
+    "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj",
+        "projectUniqueName": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj",
         "projectName": "Personas.DDD.Infrastructure",
-        "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj",
+        "projectPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\obj\\",
+        "outputPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
-          "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\NuGet.Config",
+          "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\NuGet.Config",
           "C:\\Users\\Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -169,11 +170,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj": {
-                "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj"
+              "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj": {
+                "projectPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj"
               },
-              "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj": {
-                "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj"
+              "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj": {
+                "projectPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj"
               }
             }
           }
@@ -196,7 +197,7 @@
           "dependencies": {
             "Ardalis.SharedKernel": {
               "target": "Package",
-              "version": "[1.4.0, )",
+              "version": "[1.5.0, )",
               "versionCentrallyManaged": true
             },
             "Ardalis.Specification.EntityFrameworkCore": {
@@ -262,7 +263,7 @@
             "Ardalis.ListStartupServices": "[1.1.4, )",
             "Ardalis.Result": "[8.0.0, )",
             "Ardalis.Result.AspNetCore": "[8.0.0, )",
-            "Ardalis.SharedKernel": "[1.4.0, )",
+            "Ardalis.SharedKernel": "[1.5.0, )",
             "Ardalis.SmartEnum": "[8.0.0, )",
             "Ardalis.Specification": "[8.0.0, )",
             "Ardalis.Specification.EntityFrameworkCore": "[8.0.0, )",
@@ -275,6 +276,7 @@
             "MailKit": "[4.4.0, )",
             "MediatR": "[12.2.0, )",
             "Microsoft.AspNetCore.Mvc.Testing": "[8.0.2, )",
+            "Microsoft.EntityFrameworkCore": "[8.0.3, )",
             "Microsoft.EntityFrameworkCore.Design": "[8.0.2, )",
             "Microsoft.EntityFrameworkCore.InMemory": "[8.0.2, )",
             "Microsoft.EntityFrameworkCore.Relational": "[8.0.2, )",
@@ -317,18 +319,18 @@
         }
       }
     },
-    "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj": {
+    "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj",
+        "projectUniqueName": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj",
         "projectName": "Personas.DDD.UseCases",
-        "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj",
+        "projectPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj",
         "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\obj\\",
+        "outputPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
-          "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\NuGet.Config",
+          "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\NuGet.Config",
           "C:\\Users\\Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -342,8 +344,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj": {
-                "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj"
+              "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj": {
+                "projectPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Core\\Personas.DDD.Core.csproj"
               }
             }
           }
@@ -386,7 +388,7 @@
             "Ardalis.ListStartupServices": "[1.1.4, )",
             "Ardalis.Result": "[8.0.0, )",
             "Ardalis.Result.AspNetCore": "[8.0.0, )",
-            "Ardalis.SharedKernel": "[1.4.0, )",
+            "Ardalis.SharedKernel": "[1.5.0, )",
             "Ardalis.SmartEnum": "[8.0.0, )",
             "Ardalis.Specification": "[8.0.0, )",
             "Ardalis.Specification.EntityFrameworkCore": "[8.0.0, )",
@@ -399,6 +401,7 @@
             "MailKit": "[4.4.0, )",
             "MediatR": "[12.2.0, )",
             "Microsoft.AspNetCore.Mvc.Testing": "[8.0.2, )",
+            "Microsoft.EntityFrameworkCore": "[8.0.3, )",
             "Microsoft.EntityFrameworkCore.Design": "[8.0.2, )",
             "Microsoft.EntityFrameworkCore.InMemory": "[8.0.2, )",
             "Microsoft.EntityFrameworkCore.Relational": "[8.0.2, )",
@@ -441,18 +444,18 @@
         }
       }
     },
-    "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Personas.DDD.Web.csproj": {
+    "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Personas.DDD.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Personas.DDD.Web.csproj",
+        "projectUniqueName": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Personas.DDD.Web.csproj",
         "projectName": "Personas.DDD.Web",
-        "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Personas.DDD.Web.csproj",
+        "projectPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Personas.DDD.Web.csproj",
         "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\obj\\",
+        "outputPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
-          "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\NuGet.Config",
+          "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\NuGet.Config",
           "C:\\Users\\Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -466,11 +469,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj": {
-                "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj"
+              "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj": {
+                "projectPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj"
               },
-              "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj": {
-                "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj"
+              "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj": {
+                "projectPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.UseCases\\Personas.DDD.UseCases.csproj"
               }
             }
           }
@@ -544,7 +547,7 @@
             "Ardalis.ListStartupServices": "[1.1.4, )",
             "Ardalis.Result": "[8.0.0, )",
             "Ardalis.Result.AspNetCore": "[8.0.0, )",
-            "Ardalis.SharedKernel": "[1.4.0, )",
+            "Ardalis.SharedKernel": "[1.5.0, )",
             "Ardalis.SmartEnum": "[8.0.0, )",
             "Ardalis.Specification": "[8.0.0, )",
             "Ardalis.Specification.EntityFrameworkCore": "[8.0.0, )",
@@ -557,6 +560,7 @@
             "MailKit": "[4.4.0, )",
             "MediatR": "[12.2.0, )",
             "Microsoft.AspNetCore.Mvc.Testing": "[8.0.2, )",
+            "Microsoft.EntityFrameworkCore": "[8.0.3, )",
             "Microsoft.EntityFrameworkCore.Design": "[8.0.2, )",
             "Microsoft.EntityFrameworkCore.InMemory": "[8.0.2, )",
             "Microsoft.EntityFrameworkCore.Relational": "[8.0.2, )",

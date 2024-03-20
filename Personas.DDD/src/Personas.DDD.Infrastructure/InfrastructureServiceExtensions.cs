@@ -16,8 +16,8 @@ public static class InfrastructureServiceExtensions
 {
   public static IServiceCollection AddInfrastructureServices(
     this IServiceCollection services,
-    ConfigurationManager config,
-    ILogger logger)
+    ConfigurationManager config)
+    //ILogger logger)
   {
     //string? connectionString = config.GetConnectionString("SqliteConnection");
     //Guard.Against.Null(connectionString);
@@ -42,7 +42,7 @@ public static class InfrastructureServiceExtensions
 
     services.Configure<MailserverConfiguration>(config.GetSection("Mailserver"));
 
-    logger.LogInformation("{Project} services registered", "Infrastructure");
+    //logger.LogInformation("{Project} services registered", "Infrastructure");
 
     return services;
   }

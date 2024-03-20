@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Personas.DDD.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+161db91fe651d1efb138ec66b48203e3d5f675af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85cbee1a3512223c98e05bb27ef5098000582af0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Personas.DDD.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Personas.DDD.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

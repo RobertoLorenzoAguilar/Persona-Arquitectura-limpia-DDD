@@ -10,3 +10,16 @@ C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0
 C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\refint\People.DDD.Core.dll
 C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.pdb
 C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\ref\People.DDD.Core.dll
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\bin\Debug\net8.0\People.DDD.Core.deps.json
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\bin\Debug\net8.0\People.DDD.Core.dll
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\bin\Debug\net8.0\People.DDD.Core.pdb
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.AssemblyInfoInputs.cache
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.AssemblyInfo.cs
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.csproj.CoreCompileInputs.cache
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.sourcelink.json
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.dll
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\refint\People.DDD.Core.dll
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.pdb
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\ref\People.DDD.Core.dll
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\People.DDD.Core\obj\Debug\net8.0\People.DDD.Core.csproj.AssemblyReference.cache

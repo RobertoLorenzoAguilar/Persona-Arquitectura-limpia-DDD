@@ -10,23 +10,9 @@ using Personas.DDD.UseCases.Contributors.Create;
 using FastEndpoints;
 using FastEndpoints.Swagger;
 using MediatR;
-using Serilog;
-using Serilog.Extensions.Logging;
-
-var logger = Log.Logger = new LoggerConfiguration()
-  .Enrich.FromLogContext()
-  .WriteTo.Console()
-  .CreateLogger();
-
-logger.Information("Starting web host");
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Host.UseSerilog((_, config) => config.ReadFrom.Configuration(builder.Configuration));
-var microsoftLogger = new SerilogLoggerFactory(logger)
-    .CreateLogger<Program>();
-
-// Configure Web Behavior
 builder.Services.Configure<CookiePolicyOptions>(options =>
 {
   options.CheckConsentNeeded = context => true;
@@ -41,7 +27,7 @@ builder.Services.AddFastEndpoints()
 
 ConfigureMediatR();
 
-builder.Services.AddInfrastructureServices(builder.Configuration, microsoftLogger);
+builder.Services.AddInfrastructureServices(builder.Configuration);
 
 if (builder.Environment.IsDevelopment())
 {
@@ -76,28 +62,8 @@ app.UseFastEndpoints()
 
 app.UseHttpsRedirection();
 
-SeedDatabase(app);
 
 app.Run();
-
-static void SeedDatabase(WebApplication app)
-{
-  using var scope = app.Services.CreateScope();
-  var services = scope.ServiceProvider;
-
-  try
-  {
-    var context = services.GetRequiredService<AppDbContext>();
-    //          context.Database.Migrate();
-    context.Database.EnsureCreated(); //crea la base de datos
-    SeedData.Initialize(services); //agrega los valores
-  }
-  catch (Exception ex)
-  {
-    var logger = services.GetRequiredService<ILogger<Program>>();
-    logger.LogError(ex, "An error occurred seeding the DB. {exceptionMessage}", ex.Message);
-  }
-}
 
 void ConfigureMediatR()
 {

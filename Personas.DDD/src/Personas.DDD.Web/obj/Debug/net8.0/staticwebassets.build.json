@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "z4QsaFwacF1fmjb7H7Da/EihO04z8vRZKrHh9BT3uzU=",
+  "Hash": "yCiK8XL8eRvnYIPiuHQ+SRqazleP1fP55HE1v94n548=",
   "Source": "Personas.DDD.Web",
   "BasePath": "_content/Personas.DDD.Web",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Personas.DDD.Web\\wwwroot",
       "Source": "Personas.DDD.Web",
-      "ContentRoot": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\wwwroot\\",
+      "ContentRoot": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\wwwroot\\",
       "BasePath": "_content/Personas.DDD.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\wwwroot\\.gitkeep",
+      "Identity": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\wwwroot\\.gitkeep",
       "SourceId": "Personas.DDD.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\wwwroot\\",
+      "ContentRoot": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\wwwroot\\",
       "BasePath": "_content/Personas.DDD.Web",
       "RelativePath": ".gitkeep",
       "AssetKind": "All",

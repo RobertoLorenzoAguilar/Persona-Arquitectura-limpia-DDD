@@ -4,14 +4,30 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <PublishAot>true</PublishAot>
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Properties\launchSettings - Copia.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_WebToolingArtifacts Remove="Properties\launchSettings - Copia.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Properties\launchSettings - Copia.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Ardalis.ListStartupServices" />
-    <PackageReference Include="Ardalis.Result" />
     <PackageReference Include="FastEndpoints" />
-    <PackageReference Include="MediatR" />
-    <PackageReference Include="Swashbuckle.AspNetCore" />
+    <PackageReference Include="FastEndpoints.Swagger" />
   </ItemGroup>
 
   <ItemGroup>

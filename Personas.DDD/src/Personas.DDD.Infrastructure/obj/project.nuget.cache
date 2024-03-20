@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "iffPNGlRS8aVrCpV92YqrUdeRCjMKV7ao3LS/fqv1QNyJqKIvx4IU8uZJzlaLnrPzRA8bDi/LAy46vuhen08+Q==",
+  "dgSpecHash": "DlqpI6yo3qYPettqNtA1wJXyzF/3hkP6gbzZhSzAihO65Lnemhpoy7bCgLg53CmNee51PSk2xhOyeJOaRApKAw==",
   "success": true,
-  "projectFilePath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj",
+  "projectFilePath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Infrastructure\\Personas.DDD.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dev\\.nuget\\packages\\ardalis.guardclauses\\4.5.0\\ardalis.guardclauses.4.5.0.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\ardalis.result\\8.0.0\\ardalis.result.8.0.0.nupkg.sha512",
-    "C:\\Users\\Dev\\.nuget\\packages\\ardalis.sharedkernel\\1.4.0\\ardalis.sharedkernel.1.4.0.nupkg.sha512",
+    "C:\\Users\\Dev\\.nuget\\packages\\ardalis.sharedkernel\\1.5.0\\ardalis.sharedkernel.1.5.0.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\ardalis.smartenum\\8.0.0\\ardalis.smartenum.8.0.0.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\ardalis.specification\\8.0.0\\ardalis.specification.8.0.0.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\ardalis.specification.entityframeworkcore\\8.0.0\\ardalis.specification.entityframeworkcore.8.0.0.nupkg.sha512",

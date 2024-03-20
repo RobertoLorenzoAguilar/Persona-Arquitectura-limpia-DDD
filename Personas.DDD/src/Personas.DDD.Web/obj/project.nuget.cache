@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "6GEhxT5H+C6HMYDRvUHDNX0gVUc2fiKiC044nIlzXhC76uL3CbWCMRW66Gx07Pnn9hqgP32i191qPGyQkdhCGQ==",
+  "dgSpecHash": "Per1/N0e6Xh71CC0pLeirJDQuSTIde1vHdLw+n/XcrG9KUprruB1GviQhZdmGnJb2TEf3Do2dHD51jZEw/4/oA==",
   "success": true,
-  "projectFilePath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Personas.DDD.Web.csproj",
+  "projectFilePath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\src\\Personas.DDD.Web\\Personas.DDD.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dev\\.nuget\\packages\\ardalis.guardclauses\\4.5.0\\ardalis.guardclauses.4.5.0.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\ardalis.liststartupservices\\1.1.4\\ardalis.liststartupservices.1.1.4.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\ardalis.result\\8.0.0\\ardalis.result.8.0.0.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\ardalis.result.aspnetcore\\8.0.0\\ardalis.result.aspnetcore.8.0.0.nupkg.sha512",
-    "C:\\Users\\Dev\\.nuget\\packages\\ardalis.sharedkernel\\1.4.0\\ardalis.sharedkernel.1.4.0.nupkg.sha512",
+    "C:\\Users\\Dev\\.nuget\\packages\\ardalis.sharedkernel\\1.5.0\\ardalis.sharedkernel.1.5.0.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\ardalis.smartenum\\8.0.0\\ardalis.smartenum.8.0.0.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\ardalis.specification\\8.0.0\\ardalis.specification.8.0.0.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\ardalis.specification.entityframeworkcore\\8.0.0\\ardalis.specification.entityframeworkcore.8.0.0.nupkg.sha512",

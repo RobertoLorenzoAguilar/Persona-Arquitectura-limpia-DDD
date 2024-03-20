@@ -23,3 +23,16 @@ C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\
 C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\refint\Personas.DDD.Core.dll
 C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.pdb
 C:\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\ref\Personas.DDD.Core.dll
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\bin\Debug\net8.0\Personas.DDD.Core.deps.json
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\bin\Debug\net8.0\Personas.DDD.Core.dll
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\bin\Debug\net8.0\Personas.DDD.Core.pdb
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.csproj.AssemblyReference.cache
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.AssemblyInfoInputs.cache
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.AssemblyInfo.cs
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.csproj.CoreCompileInputs.cache
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.sourcelink.json
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.dll
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\refint\Personas.DDD.Core.dll
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\Personas.DDD.Core.pdb
+C:\eye-tiger\Persona-Arquitectura-limpia-DDD\Personas.DDD\src\Personas.DDD.Core\obj\Debug\net8.0\ref\Personas.DDD.Core.dll

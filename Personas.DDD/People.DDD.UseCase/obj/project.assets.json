@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Ardalis.GuardClauses/4.1.1": {
+      "Ardalis.GuardClauses/4.5.0": {
         "type": "package",
         "compile": {
           "lib/net7.0/Ardalis.GuardClauses.dll": {
@@ -27,7 +27,7 @@
           "lib/netstandard2.0/Ardalis.Result.dll": {}
         }
       },
-      "Ardalis.SharedKernel/1.4.0": {
+      "Ardalis.SharedKernel/1.5.0": {
         "type": "package",
         "dependencies": {
           "Ardalis.GuardClauses": "4.1.1",
@@ -165,6 +165,10 @@
       "People.DDD.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Ardalis.GuardClauses": "4.5.0",
+          "Ardalis.SharedKernel": "1.5.0"
+        },
         "compile": {
           "bin/placeholder/People.DDD.Core.dll": {}
         },
@@ -175,16 +179,16 @@
     }
   },
   "libraries": {
-    "Ardalis.GuardClauses/4.1.1": {
-      "sha512": "+UcJ2s+gf2wMNrwadCaHZV2DMcGgBU1t22A+jm40P4MHQRLy9hcleGy5xdVWd4dXZPa5Vlp4TG5xU2rhoDYrBA==",
+    "Ardalis.GuardClauses/4.5.0": {
+      "sha512": "9ajMCMD3gIWUsVb//ftJFsFm+TDvP3y05dVC1S9ANLP4Bo7V2xbCeQbTVomXR0mTYkX4mX6Lp3SPtdcKag4rZg==",
       "type": "package",
-      "path": "ardalis.guardclauses/4.1.1",
+      "path": "ardalis.guardclauses/4.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "README.md",
-        "ardalis.guardclauses.4.1.1.nupkg.sha512",
+        "ardalis.guardclauses.4.5.0.nupkg.sha512",
         "ardalis.guardclauses.nuspec",
         "icon.png",
         "lib/net7.0/Ardalis.GuardClauses.dll",
@@ -192,7 +196,10 @@
         "lib/net7.0/Ardalis.GuardClauses.xml",
         "lib/netstandard2.0/Ardalis.GuardClauses.dll",
         "lib/netstandard2.0/Ardalis.GuardClauses.pdb",
-        "lib/netstandard2.0/Ardalis.GuardClauses.xml"
+        "lib/netstandard2.0/Ardalis.GuardClauses.xml",
+        "lib/netstandard2.1/Ardalis.GuardClauses.dll",
+        "lib/netstandard2.1/Ardalis.GuardClauses.pdb",
+        "lib/netstandard2.1/Ardalis.GuardClauses.xml"
       ]
     },
     "Ardalis.Result/8.0.0": {
@@ -208,14 +215,14 @@
         "lib/netstandard2.0/Ardalis.Result.dll"
       ]
     },
-    "Ardalis.SharedKernel/1.4.0": {
-      "sha512": "1wlkjaVPjWFTWUAfBdAmSuZxUfMJPmz5jyNZpqsyuLlYe0F+4MXVnAUmZfJFzFM9OHbvOJUF7o3NXSo6u0xqlQ==",
+    "Ardalis.SharedKernel/1.5.0": {
+      "sha512": "X7e/ZeH5V9T++RDoKxrRtjW1CGkswNFdjY08bGR2TZwapRRoXCDgbAipEiI+k1ZAT21eB2eoeM+FxZLmANeRHw==",
       "type": "package",
-      "path": "ardalis.sharedkernel/1.4.0",
+      "path": "ardalis.sharedkernel/1.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ardalis.sharedkernel.1.4.0.nupkg.sha512",
+        "ardalis.sharedkernel.1.5.0.nupkg.sha512",
         "ardalis.sharedkernel.nuspec",
         "icon.png",
         "lib/net7.0/Ardalis.SharedKernel.dll",
@@ -477,7 +484,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Ardalis.Result >= 8.0.0",
-      "Ardalis.SharedKernel >= 1.4.0",
+      "Ardalis.SharedKernel >= 1.5.0",
       "People.DDD.Core >= 1.0.0"
     ]
   },
@@ -487,15 +494,15 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.UseCase\\People.DDD.UseCase.csproj",
+      "projectUniqueName": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.UseCase\\People.DDD.UseCase.csproj",
       "projectName": "People.DDD.UseCase",
-      "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.UseCase\\People.DDD.UseCase.csproj",
+      "projectPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.UseCase\\People.DDD.UseCase.csproj",
       "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
-      "outputPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.UseCase\\obj\\",
+      "outputPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.UseCase\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "configFilePaths": [
-        "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\NuGet.Config",
+        "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\NuGet.Config",
         "C:\\Users\\Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -509,8 +516,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.Core\\People.DDD.Core.csproj": {
-              "projectPath": "C:\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.Core\\People.DDD.Core.csproj"
+            "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.Core\\People.DDD.Core.csproj": {
+              "projectPath": "C:\\eye-tiger\\Persona-Arquitectura-limpia-DDD\\Personas.DDD\\People.DDD.Core\\People.DDD.Core.csproj"
             }
           }
         }
@@ -538,7 +545,7 @@
           },
           "Ardalis.SharedKernel": {
             "target": "Package",
-            "version": "[1.4.0, )",
+            "version": "[1.5.0, )",
             "versionCentrallyManaged": true
           }
         },
@@ -548,7 +555,7 @@
           "Ardalis.ListStartupServices": "[1.1.4, )",
           "Ardalis.Result": "[8.0.0, )",
           "Ardalis.Result.AspNetCore": "[8.0.0, )",
-          "Ardalis.SharedKernel": "[1.4.0, )",
+          "Ardalis.SharedKernel": "[1.5.0, )",
           "Ardalis.SmartEnum": "[8.0.0, )",
           "Ardalis.Specification": "[8.0.0, )",
           "Ardalis.Specification.EntityFrameworkCore": "[8.0.0, )",
@@ -561,6 +568,7 @@
           "MailKit": "[4.4.0, )",
           "MediatR": "[12.2.0, )",
           "Microsoft.AspNetCore.Mvc.Testing": "[8.0.2, )",
+          "Microsoft.EntityFrameworkCore": "[8.0.3, )",
           "Microsoft.EntityFrameworkCore.Design": "[8.0.2, )",
           "Microsoft.EntityFrameworkCore.InMemory": "[8.0.2, )",
           "Microsoft.EntityFrameworkCore.Relational": "[8.0.2, )",
