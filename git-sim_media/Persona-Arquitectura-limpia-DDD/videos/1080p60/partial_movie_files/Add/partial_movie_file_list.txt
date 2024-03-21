@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/eye-tiger/Persona-Arquitectura-limpia-DDD/git-sim_media/Persona-Arquitectura-limpia-DDD/videos/1080p60/partial_movie_files/Add/3944509615_3421678860_501194505.mp4'
